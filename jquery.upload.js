@@ -9,7 +9,6 @@
     
     var settings = {
         url: '',
-        onstart: function(total) { return true; },
         onload: function(e, xhr, num, total) { return true; },
         onprogress: function(e) { return true; },
         oncomplete: function(e, xhr, total) { return true; }
